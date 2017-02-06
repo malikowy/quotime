@@ -1,0 +1,16 @@
+/* main.scss */
+/* Page base*/
+@import "modules/colors";
+@import "partials/typography";
+@import "partials/buttons";
+/* Page content*/
+@import "partials/menu";
+@import "partials/header";
+@import "partials/container_main";
+@import "partials/container-left";
+@import "partials/container-right";
+@import "partials/footer";
+
+body {
+	max-height: 100vh;
+}

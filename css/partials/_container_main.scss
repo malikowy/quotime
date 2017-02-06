@@ -1,0 +1,62 @@
+/* _container-main.scss */
+/* Small screens*/
+/* min-width: 320px, mobile-only screens */
+@media only screen {}
+/* Medium screens*/
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {}
+/* Large screens*/
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {}
+/* XLarge screens*/
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) {}
+/* XXLarge screens*/
+/* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) {}
+
+.container {
+	background: aqua;
+	display   : -webkit-box;
+	display   : -ms-flexbox;
+	display   : flex;
+	height    : 84vh;
+
+	&__left {
+		width           : 5%;
+		height          : 100%;
+		background-color: green;
+
+		ul {
+			list-style-type  : none;
+			margin           : 0;
+			-webkit-transform: rotate(90deg);
+			transform        : rotate(90deg);
+			display          : -webkit-box;
+			display          : -ms-flexbox;
+			display          : flex;
+			position         : relative;
+			top              : 10rem;
+
+			&.hidden {
+				display: none;
+			}
+
+			li {
+				min-width: 85px;
+			}
+		}
+	}
+
+	&__right {
+		width           : 5%;
+		height          : 100%;
+		background-color: red;
+	}
+
+	&__main {
+		width           : 90%;
+		height          : 100%;
+		background-color: blue;
+	}
+}
