@@ -22,41 +22,32 @@
 	display   : flex;
 	height    : 84vh;
 
-	&__left {
-		width           : 5%;
-		height          : 100%;
-		background-color: green;
+	&__side {
+		list-style-type  : none;
+		margin           : 0;
+		-webkit-transform: rotate(90deg);
+		transform        : rotate(90deg);
+		display          : -webkit-box;
+		display          : -ms-flexbox;
+		display          : flex;
+		position         : absolute;
+		top              : 10rem;
+		padding          : 0;
+		width            : 4rem;
 
-		ul {
-			list-style-type  : none;
-			margin           : 0;
-			-webkit-transform: rotate(90deg);
-			transform        : rotate(90deg);
-			display          : -webkit-box;
-			display          : -ms-flexbox;
-			display          : flex;
-			position         : relative;
-			top              : 10rem;
-
-			&.hidden {
-				display: none;
-			}
-
-			li {
-				min-width: 85px;
-			}
+		&.hidden {
+			display: none;
 		}
-	}
 
-	&__right {
-		width           : 5%;
-		height          : 100%;
-		background-color: red;
+		li {
+			min-width: 85px;
+		}
 	}
 
 	&__main {
 		width           : 90%;
 		height          : 100%;
 		background-color: blue;
+		margin          : 0 5%;
 	}
 }

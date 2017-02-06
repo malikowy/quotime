@@ -226,57 +226,30 @@
   display: -webkit-flex;
   display: flex;
   height: 84vh; }
-  .container__left {
-    width: 5%;
-    height: 100%;
-    background-color: green; }
-    .container__left ul {
-      list-style-type: none;
-      margin: 0;
-      -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      transform: rotate(90deg);
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      position: relative;
-      top: 10rem; }
-      .container__left ul.hidden {
-        display: none; }
-      .container__left ul li {
-        min-width: 85px; }
-  .container__right {
-    width: 5%;
-    height: 100%;
-    background-color: red; }
+  .container__side {
+    list-style-type: none;
+    margin: 0;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    padding: 0;
+    width: 4rem; }
+    .container__side.hidden {
+      display: none; }
+    .container__side li {
+      min-width: 85px; }
   .container__main {
     width: 90%;
     height: 100%;
-    background-color: blue; }
+    background-color: blue;
+    margin: 0 5%; }
 
-/* _container-left.scss */
-/* Small screens*/
-/* min-width: 320px, mobile-only screens */
-/* Medium screens*/
-/* min-width 641px, medium screens */
-/* Large screens*/
-/* min-width 1025px, large screens */
-/* XLarge screens*/
-/* min-width 1441px, xlarge screens */
-/* XXLarge screens*/
-/* min-width 1921px, xxlarge screens */
-/* _container-right.scss */
-/* Small screens*/
-/* min-width: 320px, mobile-only screens */
-/* Medium screens*/
-/* min-width 641px, medium screens */
-/* Large screens*/
-/* min-width 1025px, large screens */
-/* XLarge screens*/
-/* min-width 1441px, xlarge screens */
-/* XXLarge screens*/
-/* min-width 1921px, xxlarge screens */
 /* _footer.scss */
 /* Small screens*/
 /* min-width: 320px, mobile-only screens */
