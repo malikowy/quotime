@@ -1,0 +1,12 @@
+jasny niebieski   #eef8f6
+ciemny niebieski on hover np. napisy i border menu #01afb8
+napisy menu normalne #273650
+kolor logo i bloku menu open/close #273650
+kolor ikon bloku open #ffffff
+kolor czcionek w footerze #afb5be  ciemne to #273650
+
+
+czcionka
+logo/menu Raleway Heavy
+side menu Raleway Regular
+footer Raleway Regular
